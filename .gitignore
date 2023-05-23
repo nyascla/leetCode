@@ -1,0 +1,12 @@
+# Archivos y directorios generados por PyCharm
+.idea/
+*.iml
+
+# Archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Directorio de entorno virtual (por ejemplo, virtualenv o venv)
+venv/
