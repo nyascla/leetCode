@@ -10,20 +10,20 @@ A continuación se muestra una lista de las categorías disponibles en este repo
 
 
 
-- **[Estructuras de Datos](Data Structures/)**
+- **[Estructuras de Datos](Data\ Structures/)**
     - Listas Enlazadas
     - Grafos
     - Pilas y Colas
     - Tablas Hash
     - etc.
 
-- **[Strings](Strings/)**
+- **[Strings](Strings /)**
     - Manipulación de Cadenas
     - Subcadenas
     - Anagramas
     - etc.
 
-- **[Programación Dinámica](Dynamic Programming/)**
+- **[Programación Dinámica](Dynamic\ Programming/)**
 
 ## Contribución
 
