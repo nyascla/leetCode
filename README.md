@@ -2,32 +2,28 @@
 
 Este repositorio contiene una colección de algoritmos resueltos de LeetCode organizados por categorías. Estos algoritmos abarcan una variedad de temas y conceptos, incluyendo estructuras de datos, algoritmos de búsqueda, algoritmos de ordenamiento y más.
 
-El objetivo de este repositorio es proporcionar soluciones a los problemas de LeetCode y servir como referencia y recurso de aprendizaje para otros desarrolladores interesados en mejorar sus habilidades de programación.
+El objetivo de este repositorio es proporcionar soluciones a los problemas de LeetCode y servir como referencia y recurso de aprendizaje.
 
 ## Categorías
 
 A continuación se muestra una lista de las categorías disponibles en este repositorio, junto con los algoritmos correspondientes:
 
-[Texto del enlace](DataStructures/)
 
-- **Estructuras de Datos**
+
+- **[Estructuras de Datos](Data Structures/)**
     - Listas Enlazadas
-    - Árboles Binarios
+    - Grafos
     - Pilas y Colas
     - Tablas Hash
     - etc.
 
-- **Strings**
+- **[Strings](Strings/)**
     - Manipulación de Cadenas
     - Subcadenas
     - Anagramas
     - etc.
 
-- **Algoritmos de Búsqueda y Ordenamiento**
-    - Búsqueda Binaria
-    - Ordenamiento por Burbuja
-    - Ordenamiento por Inserción
-    - etc.
+- **[Programación Dinámica](Dynamic Programming/)**
 
 ## Contribución
 
@@ -42,10 +38,6 @@ A continuación se muestra una lista de las categorías disponibles en este repo
 
 ## Recursos Adicionales
 
-Si estás interesado en resolver más problemas de LeetCode o aprender sobre algoritmos y estructuras de datos, aquí tienes algunos recursos adicionales:
+Si estás interesado en resolver más problemas de LeetCode o aprender sobre algoritmos y estructuras de datos:
 
 - [LeetCode](https://leetcode.com/) - Plataforma en línea para la práctica de algoritmos y entrevistas técnicas.
-- [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) - Curso en línea de Coursera sobre algoritmos.
-- [Data Structures and Algorithms](https://www.geeksforgeeks.org/data-structures/) - Recursos y tutoriales sobre estructuras de datos y algoritmos en GeeksforGeeks.
-
-¡Disfruta resolviendo algoritmos y mejorando tus habilidades de programación!

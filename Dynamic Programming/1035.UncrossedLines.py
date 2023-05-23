@@ -1,10 +1,5 @@
-from typing import List
-
 '''
 Programacion dinamica
-Think dynamic programming. Given an oracle dp(i,j) 
-that tells us how many lines A[i:], B[j:] [the sequence A[i], A[i+1], ... and B[j], B[j+1], ...] 
-are uncrossed, can we write this as a recursion?
 
     Subestructuras óptimas - se pueden usar soluciones óptimas de subproblemas para encontrar la solución óptima
         1. Dividir el problema en subproblemas más pequeños.
@@ -28,6 +23,7 @@ are uncrossed, can we write this as a recursion?
         Dibujando el arbol se vee que muchos subarboles son iguales
 
 '''
+from typing import List
 
 class Solution:
     def maxUncrossedLines(self, nums1: List[int], nums2: List[int]) -> int:

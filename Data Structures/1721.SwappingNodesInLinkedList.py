@@ -1,17 +1,18 @@
 from typing import Optional
 
 '''
-LISTAS ENLAZADAS
-    problema muy basico
+Intercambia los valores del elemento X desde el inicio y el elemento X desde el final
+
+Al encontrar el elemento X
+    Iteramos con DOS punteros, uno desde el inicio y otro desde X
+    Cuando el punto desde X llega al final
+    El otro puntero estara junto X elementos antes del final 
 '''
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
 class ListNode:
-    pass
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
