@@ -10,7 +10,7 @@ A continuación se muestra una lista de las categorías disponibles en este repo
 
 
 
-- **[Estructuras de Datos]("Data Structures/")**
+- **[Estructuras de Datos](Data_Structures/)**
     - Listas Enlazadas
     - Grafos
     - Pilas y Colas
@@ -23,7 +23,7 @@ A continuación se muestra una lista de las categorías disponibles en este repo
     - Anagramas
     - etc.
 
-- **[Programación Dinámica]("Dynamic Programming/")**
+- **[Programación Dinámica](Dynamic_Programming/)**
 
 ## Contribución
 
