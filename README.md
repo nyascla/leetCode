@@ -8,8 +8,6 @@ El objetivo de este repositorio es proporcionar soluciones a los problemas de Le
 
 A continuación se muestra una lista de las categorías disponibles en este repositorio, junto con los algoritmos correspondientes:
 
-
-
 - **[Estructuras de Datos](Data_Structures/)**
     - Listas Enlazadas
     - Grafos

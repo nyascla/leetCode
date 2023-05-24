@@ -2,22 +2,21 @@
 El problema consiste en encontrar el camino mas corto entre
 dos grupos de "1" que estan en una matriz de "0"
 
-La primera idea sera utilizar BFS para encontrar el camino mas corto
-entre cualquier nodo de la isla A a cualquier nodo de la isla B
+Recorrer Grafos
 
-SOLUCION
-    encontrar la primera insla
-Ejecutar un DFS cuando encontremos la primera casilla de un insla
-buscamos en profundidad y guardamos en un conjunto todas las casillas de esa insla
-para cada iteracion mirados los 4 lados de la casilla
-llegamos a un nodo bueno, añadimos a visitados y miramos sus 4 esquinas,
-es un nodo bueno añadimos y miramos sus 4 esquinas
-no es un modo bueno return y seguimos desde el anterior nodo bueno mirando
-las 3 esquinas que faltas
+    SOLUCION
+        encontrar la primera insla
+    Ejecutar un DFS cuando encontremos la primera casilla de un insla
+    buscamos en profundidad y guardamos en un conjunto todas las casillas de esa insla
+    para cada iteracion mirados los 4 lados de la casilla
+    llegamos a un nodo bueno, añadimos a visitados y miramos sus 4 esquinas,
+    es un nodo bueno añadimos y miramos sus 4 esquinas
+    no es un modo bueno return y seguimos desde el anterior nodo bueno mirando
+    las 3 esquinas que faltas
 
-    encontrar el camino mas corto entre la primera isla y la segundo
-Para ello utilizar BFS, algoritmo tipico para encontrar la distancia en grafos no dirigidos
-iteraremos el grafo por capas de vecinos hasta encontrar el primer nodo de la otra isla
+        encontrar el camino mas corto entre la primera isla y la segundo
+    Para ello utilizar BFS, algoritmo tipico para encontrar la distancia en grafos no dirigidos
+    iteraremos el grafo por capas de vecinos hasta encontrar el primer nodo de la otra isla
 '''
 
 from typing import List
