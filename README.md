@@ -23,19 +23,7 @@ A continuación se muestra una lista de las categorías disponibles en este repo
 
 - **[Programación Dinámica](Dynamic_Programming/)**
 
-## Contribución
-
-¡Las contribuciones a este repositorio son bienvenidas! Si deseas agregar tus propias soluciones a problemas de LeetCode o mejorar las existentes, sigue estos pasos:
-
-1. Haz un fork de este repositorio.
-2. Crea una rama con un nombre descriptivo: `git checkout -b nombre-de-la-rama`.
-3. Realiza las modificaciones o agregados necesarios.
-4. Commitea tus cambios: `git commit -m "Descripción de los cambios"`.
-5. Haz push a la rama: `git push origin nombre-de-la-rama`.
-6. Abre un Pull Request en este repositorio.
 
 ## Recursos Adicionales
-
-Si estás interesado en resolver más problemas de LeetCode o aprender sobre algoritmos y estructuras de datos:
 
 - [LeetCode](https://leetcode.com/) - Plataforma en línea para la práctica de algoritmos y entrevistas técnicas.
