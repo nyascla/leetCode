@@ -20,6 +20,8 @@ class Solution:
         for x in range(1,k):
             left = left.next
 
+        # Doble puntero
+        # Cuando uno llegue al final, el otro estara en la posicion deseada
         right = head
         end = left
         while end.next:

@@ -10,10 +10,14 @@ Entendiendo el problema como uno o muchos arboles (porque sabemos que es un graf
 '''
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
+        # Todos los nodos a los que se puede llegar a traves de otro nodo
+        # Todos los nodos No raiz
         dic = defaultdict(list)
         for desde,hasta in edges:
             dic[hasta].append(desde)
 
+        # Comprobamos que nodos no estan en el diccionario anteriormente creado
+        # Estos son nodos raiz
         sol = []
         for x in range(n):
             if x not in dic:

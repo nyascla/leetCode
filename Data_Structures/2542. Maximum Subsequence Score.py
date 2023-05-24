@@ -29,16 +29,20 @@ import heapq
 
 class Solution:
     def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
+        # Ordenar las listas respecto a la lista2
         lista = list(zip(nums1, nums2))
         lista = sorted(lista, key=lambda x: x[1], reverse=True)
 
+        # rellear el maxheap con los k primeros elementos
         max_heap, answer = [], 0
         for x in lista[:k]:
             heapq.heappush(max_heap, x[0])
 
+        # Primera posible respuesta
         heap_sum = sum(max_heap)
         answer = heap_sum * lista[k - 1][1]
 
+        # Iterar el resto de posibles respuestas
         for x in lista[k:]:
             heap_sum -= heapq.heappop(max_heap)
             heap_sum += x[0]
