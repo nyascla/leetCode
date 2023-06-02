@@ -19,6 +19,11 @@ info de caba nivel del arbol
     De quien es el turno
     En que indice estamos
     la M
+En cada nivel
+    devolver el maximo de piedras posibles para A
+    devolver el minimo de piedras posible para B
+    un for de mire todas las posibles decisiones
+    max() o min() devuelve el valor al nivel inferior
 
 '''
 from typing import List
@@ -74,4 +79,9 @@ On each player's turn, that player can take all the stones in the first X remain
 The game continues until all the stones have been taken.
 
 Assuming Alice and Bob play optimally, return the maximum number of stones Alice can get.
+
+Array
+Math
+Dynamic Programming
+Game Theory
 '''
