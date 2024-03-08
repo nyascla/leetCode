@@ -1,3 +1,6 @@
+[Enlace a ejemplo.py](./Data_Structures/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py#L1)
+
+
 # Algoritmos de LeetCode
 
 Este repositorio contiene una colección de algoritmos resueltos de LeetCode organizados por categorías. Estos algoritmos abarcan una variedad de temas y conceptos, incluyendo estructuras de datos, algoritmos de búsqueda, algoritmos de ordenamiento y más.
