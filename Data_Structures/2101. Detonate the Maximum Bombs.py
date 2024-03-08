@@ -60,10 +60,11 @@ You may choose to detonate a single bomb. When a bomb is detonated, it will deto
 
 Given the list of bombs, return the maximum number of bombs that can be detonated if you are allowed to detonate only one bomb.
 
-Array
-Math
-Depth-First Search
-Breadth-First Search
-Graph
-Geometry
+
 '''
+# Array
+# Math
+# Depth-First Search
+# Breadth-First Search
+# Graph
+# Geometry
