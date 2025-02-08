@@ -1,23 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* recount(char* s) {  
+int* recount(int *arr) {  
     char *ps = s;
     int arr[10] = {0};
 
     while (*ps != '\0'){
-        int n = atoi(*ps);
-
+        int n = *ps - 0;
         arr[n]++;
-    }
+    }    
     
     return arr;
 }
 
 
 char* findValidPair(char* s) {  
+    int arr[10] = {0};
+    
     char *ps = s;
     char *pss = s;
+   
     ps++;
     
     while (*ps != '\0'){
